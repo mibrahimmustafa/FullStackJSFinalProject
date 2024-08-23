@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header input[type="text"] {
+    padding: 5px;
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+#featured-container,
+#incoming-container,
+#top-rated-container,
+#trending-container,
+#results-container,
+#watchlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#movie-details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#poster img {
+    max-width: 300px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
